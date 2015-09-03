@@ -1,0 +1,4 @@
+1- make 3 users 
+2- make 2 groups and add 2 users in first and one in third
+3- use chown to change permission of file
+4- use chgrp to change permission of file for first group

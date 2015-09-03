@@ -1,0 +1,1 @@
+1- write a program which take from user his name and display message say hello "user-name" then take from him two statments and say if its equal or not .. then ask him to enter two numbers and display is first number is equal or greater or lower than second number .. and finally save the answer in file
