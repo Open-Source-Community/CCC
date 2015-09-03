@@ -1,0 +1,195 @@
+﻿<html>
+	<head> <title> Chapter 9 </title> </head>
+	
+	<h1 align = "center"> Chapter 9 </h1>
+		<div style="position: absolute;right: 0px;width: 300px;direction: rtl;"> 
+			<h2> Introduction </h2>
+			<p> فيه معلومة ممكن يكون عارفنها .. و هى ان لينكس متعدد المتسخدمين او multi user </p>
+			<p> و هانتكلم مع بعض هنا عن ازاى ندير كل المستخدمين دول فى لينكس و هانتعلم بعض الاختصارات فى ال keyboard و بعض خصائص ال shell command </p>
+			<h2> Section 1 </h2>
+			<p> اول حاجة هانتعلمها اننا هانشوف ازاى نقدر نعرف مين ال user اللى عمل logged in دلوقتى </p>
+			<p>  و ده عن طريق الامر who </p>
+			<p>  و لو عايز اعرف ال user اللى موجود دلوقتى نوعه ايه .. يعنى هل هو admin  ولا user عادى بكتب الامر whoami </p>
+			<p> و ممكن كمان ازود -a بعد الامر who عشان يقدر يزودنى بمعلومات زيادة عن ال user </p>
+			<img src = users.jpg> </img>
+			<p> طيب ازاى لينكس بيقسم ال users عنده لو كان عنده اكتر من واحد منهم </p>
+			<p> اللى بيعملوا انه بيقسم ال users على حسب ال permissions اللى واخدها كل واحد منهم و وبيحط كل مجموعة منهم فى groups </p>
+			<p>  و اللى يقدر يتحكم فى ال groups ديه هو ال admin بتاع النظام و ده عن طريق ملف group اللى موجود فى  /etc/group  </p>
+			<p>  و فيه كمان لكل user فى لينكس id لوحده و بيكون اسمه uid ده طبعا غير رقم ال group اللى ال user ده فيه اللى اسمه gid </p>
+			<p> و كل ال ids ديه بتكون موجودة فى ملف passwd اللى موجود فى /etc/passwd  و كمان فى /etc/group. </p>
+			<h5> Addin and removing users </h5>
+			<p> فى لينكس تقدر انك تضيف users او groups عن طريق ال UI بسهولة و برضة ممكن تعملها بال command line </p>
+			<p> و الشخص الوحيد اللى ليه الحق انه يضيف او يمسح users او groups هو ال root </p>
+			<p> و ده ممكن يحصل عن طريق الامر useradd و ممكن برضة تمسح عن طريق الامر userdel </p>
+			<p> مثال : عايز اضيف user اسمه turkey هاكتب الامر :</p>
+			<p> $ sudo useradd turkey </p>
+			<p> و الامر ده هايخلى ال home الى ال user الجديد /home/turkey و يزوده على مجموعة الملفات المهمه زى /etc/passwd </p>
+			<p> و عشان امسح ال user بنفس الطريقة عن طريق الامر userdel مثال : </p>
+			<p> $ sudo userdel turkey </p>
+			<p> بس الامر مش هايشيل ال /home/turkey من نفسه </p>
+			<p>  و عشان اقدر اشيله يباه هاكتب الامر زائد -r </p>
+			<p> فيه امر زيادة وهو id و المسئول انه يعرض معلومات عن ال user الموجود دلوقتى عن النظام مثال:</p>
+			<p> $ id </p>
+			<p> uid=500(george) gid=500(george) groups=106(fuse),500(george) </p>
+			<h5> Add and remove groups </h5> 
+			<p> بنفس طريقة ال user عشان اقدر اضيف group بستخدم الامر groupadd </p>
+			<p> مثال لو عايز اضيف group جديد اسمه anewgroup </p>
+			<p> $ sudo /usr/sbin/groupadd anewgroup </p>
+			<p>  و عشان امسح هاستخدم الامر groupdel  مثال على نفس المثال السابق </p>
+			<p> $ sudo /usr/sbin/groupdel anewgroup </p>
+			<p>  طيب لو انا دلوقتى عندى user و عايز اضيفه فى group موجود عندى اعمل ايه </p>
+			<p> هاستخدم الامر usermod مثال على ال user : turkey هاضيفة لل group : anewgroup </p>
+			<p> $ sudo /usr/sbin/usermod -G anewgroup turkey </p> 
+			<p> و عشان اعرف ال user هو فى انهى group بكتب الامر groups و بعده اسم ال user مثال </p>
+			<p> $ groups turkey </p>
+			<p> و الناتج بيكون على الشكل ده </p> 
+			<p> turkey: turkey anewgroup </p> 
+			<p>  طيب لو عايز اغير ال group id او ال group name او ال properties بتاعت ال group </p>
+			<p>  بستخدم و قتها الامر groupmod  </p>
+			<p> و بزود على الامر -g عشان اغير ال id او ازود -n لو عايز اغير ال name </p>
+			<p> و لو عايز امسح user من group معين هاستخدم نفس الامر بس ازود عليه -G و هانستخدمه بالطريقة ديه </p>
+			<p> $ sudo /usr/sbin/usermod -G turkey turkey </p>
+			<h5> The root account </h5>
+			<p> ال root account هو الشخص المسيطر على النظام كله تقدر تقول المعلم بتاعه وهو اللى كلمته بتمشى </p>
+			<p> فيه نظم تشغيل تانية بتسميه ال administrator و ساعات فى لينكس بنسمية superuser </p>
+			<p>  و طبعا مش محتاج احذرك و انت بتخلى اى حد من ال users اللى معاك root عشان ده بيديلة صلاحيات كاملة زيك زيه بالظبط </p>
+			<p> و فيه امر اسمه sudo او اختصار super user do بيديلك بعض مميزات ال root انما مش بيخليك ال root نفسه </p>
+			<br>
+			<br> 
+			<p> طيب فيه امر تانى اسمه su .. طيب ايه الفرق بينة و بين ال sudo اقولك </p>
+			<p> su بيديلك صلاحيات root مرتفعه اكتر من sudo عشان كده و انت بتستخدم su لازم تكون حذر عشان ممكن تمسح ملفات مهمة من الجهاز </p> 
+			<p> اما sudo بيديك صلاحيات اقل من su و فى العادى sudo بتكون متاحة لل users اللى فى معاك فى النظام بس لازم يكون معاك ال password طبعا </p>
+			<h5> startup files </h5>
+			<p> وهى الملفات اللى ال shell بيكون واقف عندها لما يبدا و بيبدا عندها ال shell </p>
+			<p> و الملفات ديه زى اللى موجودة فى /etc بتقدر تدى لل user اى حاجة عايز يعملها زى </p>
+			<ul>
+				<li> يحلل الامر اللى كتبة ال user </li>
+				<li> انه يعرف ال shortcuts اللى كتبها ال user </li>
+				<li> بيقدر يجيب المسار لاى برنامج شغال </li>
+			</ul>
+			<p> و ترتيب الملفات ديه بيختلف ازاى؟ </p>
+			<p> اول ماتبدا تعمل login بيبدا النظام يقرا و يشغل الملف  /etc/profile </p>
+			<p> بس ده بيحصل بعد مايدور على الملفات ديه بالترتيب </p>
+			<ol>
+				<li> ~/.bash_profile </li>
+				<li> ~/.bash_login </li>
+				<li> ~/.profile  </li>
+			</ol>
+			<p> فيه بعض التوزيعات لو الملف اللى موجود فى /etc/profile مش بتدور على ال ~/.bash_login  ولا على ال ~/.profile </p>
+			<p> فيه توزيعات ال startup files مختلفة عن التانية </p>
+			
+			<br>
+			<br>
+			<h2> Section 2 </h2>
+			<h5> Environment Variables </h5>
+			
+			<p> ال Environment Variables هو متغير اقدر اديلة name و اقدر اديلة value و ال value ده ممكن يكون اى حاجة </p>
+			<p> مكان لبرنامج معين عايز استخدمه بعدين .. او ال local setting فى النظام .. او editor عايز استخدمه على طول </p>
+			<p> و كمان ال variables فيه منها اللى موجود مع النظام و ممكن كمان المستخدم يعمل variables من عنده عن طريق ال shell </p>
+			<p> طيب ازاى اقدر اشوف ال environment variables اللى موجودة فى النظام </p>
+			<p>  فى الحقيقة فيه طرق كتير ممكن نستخدمها زى الامر set او الامر env او export </p>
+			<p> مثال على الامر set </p> 
+			<p> $ set </p> 
+			<p> BASH=/bin/bash </p>
+			<p> BASHOPTS=checkwinsize:cmdhist:expand_aliases:extglob:extquote:force_fignore </p>
+			<p> BASH_ALIASES=() </p>
+			
+			<h2> Setting Environment Variables </h2>
+			<p> اول حاجة لو انا عندى variable و عايز اعرف ال value اللى جواه مثال : </p>
+			<p> echo $SHELL </p>
+			<p> طيب ازاى اقدر اعرف variable جديد ؟ </p>
+			<p> هاستخدم الامر export .. مثال لو عايز اعرف variable جديد اسمه VARIABLE : </p>
+			<p> export VARIABLE=value </p>
+			<p> (او) VARIABLE=value; </p>
+			<p> امثلة تانية على ال Environment Variables اللى موجودة فى النظام من قبل كده </p>
+			<p> The HOME Variable : HOME بيودينى لل directory بتاع ال login فى ال ال home (/home/me) </p>
+			<P> The PATH Variable : PATH هى list مترتبة تقدر تشيل مجموعة من ال directories و بيكون شكلها كده </p>
+			<p> :path1:path2 </p>
+			<p>  والمنظر ده معناه ان فيه path فاضى قبل path1 </p>
+			<p> path1::path2 </p>
+			<p> و ده معناه ان بين path1 و path2 فيه directory فاضى برضة </p>
+			<p> مثال لو عايز اضيف ال bin directory فى path من ال paths </p>
+			<p> $ export PATH=$HOME/bin:$PATH </p>
+			<p> و لما نيجى نشوف ال paths الموجودة دلوقتى PATH </p>
+			<p> $ echo $PATH </p> 
+			<p> و بيكون الناتج بالمنظر ده </p>
+			<p> /home/me/bin:/usr/local/bin:/usr/bin:/bin/usr </p>
+			<p> The SHELL Variable : SHELL بتشير للامر الاساسى فى لينكس المسئول انه يدير ال command line كله و بيشير لل directory لل shell </p>
+			<p> $ echo $SHELL </p>
+			<p> /bin/bash </p> 
+			
+			
+			<h2> Section 3 </h2>
+			<h5> Recalling Previous Commands </h5>
+			<p> معلومة صغيرة بس مهمه لو انا عايز اجيب command قبل كده بس مش فاكره كله او كان كبير مش عايز اكتبه تانى </p>
+			<p> ممكن عن طريق انى اضغط على سهم لفوق او سهم لتحت فى ال keyboard عشان اجيب ال commands اللى كتبتها قبل كده </p>
+			<p>  وممكن كمان اجيب كل ال commands اللى اتكتبت قبل كده عن طريق الامر history </p>
+			<p> و هايجيب كل الاوامر من الاكتر استخداما الى  الاقل استخداما </p>
+			<p>  و كل ال commands اللى فى ال history موجودة فى الملف ~/.bash_history. </p>
+			<p> طيب دلوقتى كتبت history و ظهر كمية اوامر كتيرة هادور علي امر فيهم ازاى و هما كتير </p>
+			<p> فيه طريقة انى ادور فى كل الاوامر اللى اتكتبت قبل كده عن طريق Ctrl+R و وقتها هايطلب منى انى ادخل الجملة اللى عايز ادور عليها </p>
+			<p> و هو هايبدا يعمل filter للى بكتبة و يظهر كل الاوامر اللى حروفها بتطابق اللى كتبتة </p>
+			<p> بعض الاوامر المفيدة فى ال history </p>
+			<ul>
+				<li> الامر ! و الامر ده لو كتبت بعده رقم يعنى باقوله نفذ الامر اللى فى ال history اللى رقمة كده </li>
+				<li> و لو كتبت بعد الامر ! حرف هايبدا ينفذ اول امر يشوفوه و بيساوى نفس الحرف ده </li>
+				<li> و لو كتبت بعده جملة هاينفذ ال command ده على طول </li>
+			</ul>
+			
+			<br>
+			<br>
+			<p> بعض الاختصارات المفيدة فى لينكس </p>
+			<ul>
+				<li> CTRL-L : بيسمح اللى موجود فى شاشة ال terminal كان مكتوب قبل كده </li>
+				<li> CTRL-D : بيخرج من الامر اللى انا فيه و بنفذه </li>
+				<li> CTRL-Z : بيحط العملية اللى انت بتنفذها دلوقتى فى ال suspend mode يعنى وقفتة فى الحالة اللى هو فيها و ممكن اكمله بعدين </li>
+				<li> CTRL-C : بيوقف الامر اللى بيتنفذ دلوقتى بعيمل kill</li>
+				<li> CTRL-H : بينفذ نفس اللى بيعملة ال back space </li>
+				<li> CTRL-A : بيرجع ال cursor لاول السطر اللى انا فيه </li>
+				<li> CTRL-W : بيمسح الكلمة اللى قبل ال cursor على طول </li>
+				<li> CTRL-U : بيمسح من اول السطر لحد ال cursor </li>
+				<li> CTRL-E : بيحرك ال cursor لاخر السطر </li>
+				<li> Tab : بيستخدم كا autocomplete للملفات او ال directories 
+			</ul>
+			
+			<h2> Command Aliases </h2>
+			<p> Aliases هو امر مهم جدا جدا و ممكن تستخدمه كتير </p>
+			<p> الهدف  منه انك تعمل امر ليك انت بينفذ امر معين او انى اغير خصائص امر معمول قبل كده </p> 
+			<p> مثال : عايز اعمل امر لما اكتبة يباه اكنى كتبت ال directory ده cd /home/staff/RandD/src بدل ما كل مرة اكتبة </p>
+			<p>  alias projx='cd /home/staff/RandD/src' </p>
+			<p> و ده معناه ان كل مرة هاكتب الامر projx انى بكده باقولوه روح لل directory /home/staff/RandD/src </p>
+			<h2> Section 5 : </h2>
+			<h5> File Ownership </h5>
+			<p> فى لينكس او اى نظام مبنى على ينيكس بيتيح ان الملفات تكون لمستخدم معين او مجموعة من المستخدمين يكون ليهم نفس السلطة انهم يستخدموا الملف يا اما يقروا بس او يقروا و يكتبوا منه </p>
+			<p> فيه كمان بعض البرامج اللى بتساعدنا فى اننا نعمل ده </p>
+			<ul>
+				<li> chown : بيستخدم عشان اغير ال ownership بتاع ملف معين او انى اغير ال directory بتاعه </li>	`
+				<li> chgrp : بيستخدم برضة عشان اغير ال ownership لملف بس لمجموعة من ال users </li>
+				<li> chmod : بتستخدم انى اغير الصلاحية المتاحة لملف معين اللى ممكن اخليها لل owner و لل group و باقية ال users </li>
+			</ul>
+			<h2> File Permission Modes and chmod </h2>
+			<p> الملفات ليها 3 انواع من الصلاحيات اما read(r) او write(w) او execute(x) كلهم بيتجمعوا في rwx  </p>
+			<p> التلات صلاحيات ديه بيتاثر بيها التلات انواع من ال users اللى هما user/owner(u) و group(g) و others (o) </p>
+			<p> طيب ازاى استخدم chmod هانشوف ده فى المثال </p>
+			<p> خلينا نستوضح الاول ايه ال permission بتاع الملف اللى اسمه a_file </p>
+			<p> $ ls -l a_file </p>
+			<p> -rw-rw-r-- 1 coop coop 1601 Mar 9 15:04 a_file </p>
+			<p> و ده معناه ان الملف ده اقدر اقرا و اكتب منه بس ماقدرش اعمل execute </p>
+			<p> $ chmod uo+x,g-w a_file </p> 
+			<p> و هنا انا غيرت ال permission خليتة لل owner و ال other users و خليت كمان الملف يباه executable </p>
+			<p> يعنى دلوقتى او شوفت ال permission بتاعت الملف ده المفروض انها كده اتغيرت </p>
+			<p> $ ls -l a_file </p>
+			<p> -rwxr--r-x 1 coop coop 1601 Mar 9 15:04 a_file </p>
+			<p> لو اخدتوا بالكم فى كل الاوامر ديه اننا بنستخدم دايما حروف و ديه ممكن تكون صعبة على المستخدم انه يفتكرها على طول </p>
+			<p> عشان كده فيه طريقة تقدر تساعدنا بدل ماكل شوية نفتكر الاختصارات بتاعت الحروف </p> 
+			<p> و هى انى بدى قيمة رقمية لكل حاجة زى شفرة مثلا </p> 
+			<p> يعنى ال read رقمه 4 </p>
+			<p> ال write رقمة 2 </p>
+			<p> ال execute رقمة 1 </p>
+			<p> و ده معناه انى لو استخدمت 7 يعنى الملف بياخد صلاحية التلاتة و لو 6 يباه بيقرا و بيكتب بس و هكذا </p>
+			
+			
+			
+			
+		</div>
+</html>

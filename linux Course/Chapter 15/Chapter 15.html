@@ -1,0 +1,162 @@
+﻿<html>
+	<head> <title> Chapter 15 </title> </head>
+	<body>
+		<h1 align = "center"> Chapter 15 </h1>
+		<div style="position: absolute;right: 0px;width: 300px;direction: rtl;"> 
+			<h2> Introduction </h2>
+			<p> هانتعلم النهارده موضوع مهم جدا جدا جدا وهو ال bash scripting </p>
+			<p>  خلونا نتكلم هن لو انت عايز تدور على ملف معين و تشوفوه اذا كان موجود و لا لا و يعرضلى رسالة بكدة ممكن اكتب امر يعمل ده  </p>
+			<p> طيب لو عايز اعمل ده اكتر من مرة على اكتر من ملف .. هنا ييجى دور ال script انى اقدر اكتب script يعملى العلمية ديه بعدد المرات اللى انا عايزها  </p>
+			<p> و اللى هانتعلمه النهارده فى ال shell script هو ال bash </p>
+			<img src="shell.jpg"> 
+			<h2> Section 1</h2>
+			<p> اول حاجة عايزين نعرفها ننا بنعمل بنكتب ال script بتاعنا و نشغلة على ال terminal window بتاعتنا </p>
+			<p> تانى حاجة اننا لو عايزين نكتب script بلغة ال bash يباه لازم ابدا ال script بتاعى زى فى المثال هنا </p>
+			<p> #!/bin/bash </p>
+			<p> و نخلى بالنا من حاجة مهمة جدا اننا لازم نكتب الاول الرمزين دول # و ! و بعد كده مكان ال script اللى هاستخدمه </p>
+			<p> بعد ماكتبنا الجملة الاولانية تعالوا نكتب برنامج بسيط بيدور على اى ملف موجود بصيفة .c و يعرضلى معلومات عنه زى مكانة و ال permission بتاعة </p>
+			<p> find . -name "*.c" -ls </p>
+			<p> زى ما شايفين هنا انى بدا اكتب بامر find و بعدها عرفت ان اسم الملف ال -name هايكون اى حاجة "*" بس بصيفة ".c" و اعرضهولى "-ls" </p>
+			<p> و الناتج هايكون بالشكل ده </p>
+			<img src="firstscript.jpg">
+			<h5> سؤال : هل فيه لغات تانية غير ال bash ممكن نستخدمها ؟ </h5>
+			<p> اه فيه لغات تانية و هاحتاج برضة انى اكتب المكان بتاعها زى ماتعلمنا و مثلة عليهم </p>
+			<p> /usr/bin/perl , /bin/bash, /bin/csh, /usr/bin/python , /bin/sh </p>
+			<p> و كمان لينكس بيقدم انواع مختلفة من ال shell زى </p>
+			<ol>
+				<li> /bin/sh </li>
+				<li> /bin/bash </li>
+				<li> /bin/tcsh </li>
+				<li> /bin/csh </li>
+				<li> /bin/ksh </li>
+			</ol>
+			
+			<h5> معظم مستخدمين لينكس بيستخدموا ال bash بس اللى عنده خلفية قديمة عن نظام يونكس ممكن يستخدم انواع تانية </h5>
+			<p> ممكن تقروا شوية عن تاريخ ال command line  <a href = "https://courses.edx.org/c4x/LinuxFoundationX/LFS101x/asset/Chap14_UNIXShell.pdf">  من هنا </a> </p> 
+			
+			<h5> تطبيق عملى : خلونا نكتب script صغير بيطبع جملتين على الشاشة </h5>
+			<p> $ cat > exscript.sh </p>
+			<p>  #!/bin/bash </p>
+			<p>  echo "HELLO" </p>
+			<p>  echo "WORLD"  </p>
+			<p> بعدها ندوس Enter و بعدين CTRL-D  عشان احفظ الملف </p>
+			<p> و بعدين اعمل run للملف exscript.sh </p>
+			<p> $ bash exscript.sh </p>
+			<p> و ساعتها هايكون الناتج </p>
+			<p> HELLO </p>
+			<p>  WORLD </p>
+			<img src="secondscript.jpg">
+			<h5> مثال تانى هو انى هاطلب من المستخدم اسمه و بعدين اطبعة تانى </p>
+			<p> الاسم هاحفظة فى متغير اسمه sname .. و عشان اعمل متغير اكتب اسمه وقبلة علامة الدولار $ فا هايكون اسمه $sname </p>
+			<p>  #!/bin/bash <br>
+ 				 # Interactive reading of variables <br>
+				echo "ENTER YOUR NAME" <br>
+				read sname <br>
+				# Display of variable values <br>
+				echo $sname 
+			</p>
+			<p> و عشان اخلى الملف executable هاكتب الامر chmod +x ioscript.sh. </p>
+			<p> ولما اكتب ./ioscript.sh </p>
+			<p> هايبدا يشتغل </p> 
+			<img src="thirdscript.jpg">
+			<p> طريقة مهمة فى ال script انى اعمل return ل value بعد ما انفذ امر ما زى المثال : </p>
+			<p> $ ls /etc/passwd <br>
+				/etc/ passwd <br>
+				$ echo $? <br>
+				0 
+			</p>
+			
+			<p> و زى ماشوفنا هنا انى اخدت ال return value فى القيمة $ ولما حبيب اعرضها كتبت الامر $? يعنى اطبعلى القيمة اللى جوة المتغير </p>
+			
+			<h2> Section 2 : Syntax </h2>
+			
+			<p> مهم جدا اننا نتعلم مصطلحات اللغة اللى بنتعلمها دلوقتى عشان نتعود ازاى نعرف متغير و نستخدمها بشكل صحيح </p>
+			<p> و من ال syntax اللى المفروض نعرفها : </p>
+			<ol>
+				<li> # : بتستخدم عشان اعمل comment لل script اللى بكتبة </li>
+				<li> \ : بتستخدم فى انى افصل command طويل على اكتر من سطر و بكتبها اخر كل سطر قبل ما ادوس Enter عشان يعرف ان السطر الجاى تكملة للى انا كاتبة  </li>
+				<img src="fourthscript.jpg">
+				<li> ; : بتستخدم لو عايز تكتب اكتر من command فى سطر واحد بس كل واحد منهم منفصل عن التانى و هاتنفذ لوحده فا بكتبها قبل ال command الجديد عشان اعرفه ان ده جديد  </li>
+				<img src="fifthscript.jpg">
+				<li> $ : عشان اعرف variable جديد </li>
+			</ol>
+			
+			<h5> Functions </h5> 
+			<p> عشان استخدم ال function فى ال script محتاج حاجتين اول حاجة انى اعرف ال function تانى حاجة انى اناديها </p> 
+			<p> مثال : او عايز اعمل function اسمها display تظهرلى على الشاشة جملة معينة </p>
+			<p>  display () { <br>
+				echo "This is a sample function" <br>
+				}
+			</p>
+			<p> و بيكون شكل ال calling زى الصورة </p>
+			<img src="sixthscript.jpg">
+			
+			<h5> Built-in Shell Commands </h5> 
+			<p> ال commands فى ال shell script بتنقسم لتلات انواع هما </p>
+			<img src="commandtypes.jpg">
+			<p> Compiled applications هى برامج معمولة مسبقا و ال shell  عنده قدرة انه يستخدمها معاه زى rm , ls ,df , vi و gzip </p>
+			<p> Built-in bash commands و هى اللى بتستخدم انى اخرج output جوة ال terminal زى cd, pwd, echo, read, logout, printf, let , echo و ulimit </p>
+			<h5> احيانا المستخدم بيحتاج انه يبعت parameter لل script اللى عملة قبل كده </h5> 
+			<p> ممكن اللى ابعته يكون تاريخ او وقت او اى حاجة و بيكون شكلة كده </p>
+			<p> $ ./script.sh /tmp <br>
+				$ ./script.sh 100 200
+			</p>
+			<p> و فى الفيديو ده بيشرح اكتر عن ال parameter و ازاى تستخدم <a href "https://www.youtube.com/watch?v=5_vi6wFdCZk"> لينك الفيديو </a> </p>
+			<p> طيب لو عندنا مثال على script و عايزين نحفظ الناتج فى ملف هنا بييجى دور Output Redirection </p>
+			<p> طيب ازاى استخدمها ؟ .. ممكن استخدمها عن طريق الامر > </p>
+			<p> زى المثال ده <br> $ free > /tmp/free.out </p>
+			<img src="seventhscript.jpg">
+			<p> و لو استخدمت الامر >> </p>
+			<p> ده معناه انى ازود الناتج على الملف الموجود قبل كده </p>
+			<p> نفس الفكرة لو عايز اخد نتيجة موجودة فى ملف و اخدها كل input هاستخدم ال Input Redirection و هاستخدم الامر < </p>
+			<p> مثال لو عندى ملف اسمه script8.sh  جواه ال script ده </p>
+			<p> #!/bin/bash <br>
+				echo “Line count” <br>
+				wc -l < /temp/free.out
+			</p>
+			<p> لما اجى اعمل execute للملف ده هايعرضلى عدد السطور الموجودة فى الملف free.out </p>
+			<img src="script8.png">
+			<h2> Constructs </h2>
+			<h5> If condition </h5>
+			<p> طبعا معظمنا عارف ان ال if بتستخدم فى انى اتاكد من حالة لو اتحققت بنفذ على اساسها مجموعة من الاوامر لو ماتحققتش بنفذ حاجة تانية </p>
+			<p> و الاوامر ديه ممكن تكون Numerical or string comparisons <br> او Return value of a command (0 for success) <br> او File existence or permissions </p>
+			<p> if condition <br>
+				then <br>
+				statements <br>
+				else <br>
+				statements <br>
+				fi
+			</p>
+			<p> مثال توضيحى اكتر عن ال if condition <a href="https://www.youtube.com/watch?v=Bq-HRyk6D7w"> شاهد الفيديو </a> </p>
+			<p> مثال توضيحى تانى لشرح ال nested if و معناها انى اكتب اكتر من if condition جوا  بعض <a href="https://www.youtube.com/watch?v=Xw-yhc9sY1g"> شاهد الفيديو </a> </p>
+			<p> مثال لشرح ال Elif statement <a href ="https://www.youtube.com/watch?v=IJTjSBlPFg0"> شاهد الفيديو </a> </p>
+			<p> و هنا شرح لبعض ال condition على ال files </p>
+			<ul>
+				<li> -e file : بتشوف لو كان الملف موجود </li>
+				<li> -d file : بتشوف ال directory بتاع الملف </li>
+				<li> -f file : بتتاكد اذا كان الملف .. ملف عادى مش ملف ل device معين </li>
+				<li> -s file : بتتاكد اذا كان الملف حجمة اكبر من ال 0 </li>
+				<li> -r file : بتتاكد اذا كان الملف readable </li>
+				<li> -w file : بتتاكد اذا كان الملف writable </li>
+				<li> -x file : بتتاكد اذا كان الملف executable </li>
+			</ul>
+			<p> طريقة تانية فى ال condition و هى انى لو عايز اقارن بين جلمتين .. بيكون شكلهم كده </p>
+			<p> if [ string1 == string2 ]  then <br>
+				ACTION <br>
+				fi
+			</p>
+			
+			<p> و فى حالة المقارنة بين رقمين بستخدم : </p>
+			<ul>
+				<li> -eq : و معناها هل الرقم الاول بيساوى الرقم التانى </li>
+				<li> -ne : هل الرقم الاول لا يساوى الرقم الثانى </li>
+				<li> -gt : هل الرقم الاول اكبر من الرقن التانى </li>
+				<li> -lt : هل الرقم الاول اصغر من الرقن التانى </li>
+				<li> -ge : هل الرقم الاول اكبر من او يساوى الرقم التانى </li>
+				<li> -le : هل الرقم الاول اصغر من او يساوى الرقم التانى </li>
+			</ul>
+			<p> مثال توضيحى على المقارنة بين رقمين <a href="https://www.youtube.com/watch?v=F8ENJ1aVD0I"> الفيديو من هنا </a> </p>
+			
+		</div>
+	</body>
+</html>

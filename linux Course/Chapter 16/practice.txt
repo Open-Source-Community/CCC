@@ -1,0 +1,10 @@
+1- write a script which take from user his age and till him whick age where he is (baby, teen , man , old man)
+2- write a scripte draw triangle like that 
+*
+**
+***
+****
+*****
+
+3- if you have any errors in code use debug 
+4- use random function to generate numbers 

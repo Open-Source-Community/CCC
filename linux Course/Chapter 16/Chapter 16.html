@@ -1,0 +1,142 @@
+﻿<html>
+	<head> <title> Chapter 16 </title> </head>
+	
+	<body>
+		<div style="position: absolute;right: 0px;width: 300px;direction: rtl;"> 
+			<h2> Introduction </h2>
+			<p> زى ماتعلمنا فى ال chapter اللى قبل كده عن ال shell script النهارده هانتعمق اكتر فيه و هانعرف حاجات زيادة </p>
+			
+			<h2> Section 1 : String Manipulation </h2>
+			<p> ال string ممكن يكون اى حاجة مجموعة ارقام رموز زى abcde, 123, abcde 123, abcde-123, &acbde=%123 </p>
+			<p> بعض العمليات المتاحة لل string </p>
+			<ul> 
+				<li> [ string1 > string2 ] : بيقارن بين الكلمتين فى عدد الحروف اللى فى ال string </li>
+				<li> [ string1 == string2 ] : بيقارن بين الحروف اللى فى ال string اذا كانوا زى بعض و لا لا  </li>
+				<li> myLen1=${#mystring1} : بيحفظ عدد الحروف اللى فى ال string الاولانى فى المتغير mylen1 </li>
+			</ul>
+			<p> طيب لو عايزين ناخد جزء معين من string نقارنه مثلا او نعمل عليه عملية معينة </p>
+			<p> هاستخدم الامر ${string:0:1} </p>
+			<p> ال 0 هنا معناها انك ابدا من الحرف الاول و خد لحد الحرف رقم 1 وهو تانى حرف </p>
+			<p>  طيب لو عايز كل الحروف اللى بعد (.) هاكتبها بالطريقة ديه .. ${string#*.} </p>
+			<p> مثال توضيحى اكتر من الفيديو ده <a href="https://www.youtube.com/watch?v=mRflRfGVj3U"> الفيديو من هنا </a> </p>
+			<p> مثال تانى فى الفيديو ده <a href="https://www.youtube.com/watch?v=APPPXIwC83A"> الفيديو من هنا </a> </p>
+			
+			<h2> Section 2 : Boolean Expressions </h2>
+			<p> و هى المتغيرات اللى ليها قيمة محددة من اتنين true او false </p>
+			<p> و بنوضح ال boolean expressions عن طريق العمليات ديه : </p>
+			<ul>
+				<li> && (AND) : وقتها الحالة هاتتنقذ لو الحالتين اللى بقارن بينهم True </li>
+				<li> || (OR) : الحالة هاتتنفذ لو واحده من الحالتين كانوا ب True </li>
+				<li> ! (NOT) : الحالة مش هاتتنفذ الا اذا كانت القيمة ب False </li>
+			</ul>
+			<p> اقدر استخدم ال boolean expressions فى حالات كتير زى المقارتة بين الارقام او لو عايز اعرف اذا كان ملف ما موجود ولا لا زى المثال اللى فى الصورة </p>
+			<img src="scriptone.jpg">
+			
+			<h2> Section 3 : Case Statement </h2> 
+			<p> و هى بتستخدم فى حالة ان عندى متغير ممكن يكون ليه اكتر من قيمة و عايز انفذ عملية ما على حسب القيمة ديه عشان كده بستخدم ال  case عشان اقارن بينهم </p>
+			<p> طيب سؤال هنا .. ايه الفرق بينها و بين ال if و انهى احسن </p>
+			<p> فى الحقيقة هما الاتنين بينفذوا نفس الحاجة بس case ليها فوائد فى استخدامها اكتر زى :</p>
+			<ul>
+				<li> اسهل فى الكتابة و القراءة بعدين فى الكود </li>
+				<li> اسهل فى الاستخدام من استخدام nested if </li>
+				<li> بتساعدنى احسن لو عندى اكتر من قيمة لمتغير واحد </li>
+				<li> بتقلل تعقيد البرنامج فى شكل الكود </li>
+			</ul>
+			<p> شكل ال case فى الكود بيكون بالشكل ده </p>
+			<p> case expression in <br>
+				pattern1) execute commands;; <br>
+				pattern2) execute commands;; <br>
+				pattern3) execute commands;; <br>
+				pattern4) execute commands;; <br>
+				* )       execute some default commands or nothing ;; <br>
+				esac
+			</p>
+			<p> مثال عليها هانشوفوه اوضح فى الصورة ديه </p>
+			<img src="scripttwo.png">
+			
+			<h2> Section 4 : Looping </h2>
+			<p> استخدام ال loop هو التكرار .. انى عايز اكرر عملية معينة اكتر من مره </p>
+			<p> و العملية بتتكرر طول ما فيه حالة ما بتتحقق و بتكون ب true و اول ماتوصل ل false بيوقف التكرار </p>
+			<p> انواع ال loop فى ال shell script تلاتة هما </p>
+			<ul>
+				<li> for </li>
+				<li> while </li>
+				<li> until </li>
+			</ul>
+			<h5> For loop </h5> 
+			<p> التكرار هنا بيحصل بعدد مرات انا محدده الاول و بعرف ساعتها هو هايوقف امتى </p>
+			<p> و بيكون شكلها فى الكود كده : </p>
+			<p> for variable-name in list <br>
+					do <br>
+						execute one iteration for each item in the <br>
+						list until the list is finished <br>
+				done
+			</p>
+			<p> مثال توضيحى عليها </p>
+			<img src="scriptthreejpg.jpg">
+			<p> مثال تانى ل for مع استخدام case <a href="https://www.youtube.com/watch?v=iJ9m8D31Bm4"> فى الفيديو هنا </a> </p>
+			<h5> while loop </h5>
+			<p> بتبدا الاول تشوف الحالة اللى المفروض توقف عندها و بعدين تنفذ العملية المطلوبة منها </p>
+			<p> و بيكون شكلها كده </p>
+			<p> while condition is true <br>
+				do <br>
+					Commands for execution <br>
+				done
+			</p>
+			<p> مثال يوضح اكتر استخدام ال while <a href="https://www.youtube.com/watch?v=E7urxL5fj2o"> فى الفيديو من هنا </a> </p>
+			<h5> until loop </h5>
+			<p> هى عكس while فى الحالة .. يعنى هى بتشوف الحالة اللى المفروض توقف عندها بس لو كانت ب false بتتنفذ و لو كانت ب true مش بتتنفذ </p>
+			<p> و بتتكتب بالاسلوب ده </p>
+			<p> until condition is false <br>
+					do <br>
+						Commands for execution <br>
+						---- <br>
+				done
+			</p>
+			<p> مثال توضيحى لل while <a href="https://www.youtube.com/watch?v=abQ10lsRlBo"> فى الفيديو من هنا </a> </p>
+			
+			<h2> Section 5 : Script Debugging </h2>
+			<p> اوقات كتير و احنا بنكتب script بيحصل بعض الاخطاء سواء كان كلمة مكتوبة غلط او ملف بجيب او بودى ليه معلومات مش موجود او امر مش فى محلة </p>
+			<p> و كل الحاجات ديه بتوقف ال script و يقولى وقتها انها error و فايدة ال debug هى انى اقدر اشوف هو فين ال error ده بالظبط </p>
+			<p> قبل ما نصلح المشكلة لازم نعرف هى فين من الاساس وال bash بيساعدنا اننا نعمل debug عن طريق الامر  bash –x ./script_file </p>
+			<p> و ساعتها هايساعدنى انى اعرف فين المشكلة لانه بيقدر يمشى على ال script كله سطر سطر </p>
+			<p> و بيظهر كل امر مكتوب قبل ماينفذه </p>
+			<p> و بيقدر كمان انه يعمل debug لجزء معين للكود مش الكود كله </p>
+			<p> و ده عن طريق set -x عشان ابدا ال debug </p>
+			<p> و الامر set +x عشان انهى ال debug </p>
+			<h3> الصورة ديه بتوضح لملف اسمه sc2 </h3>
+			<img src="scriptfour.jpg">
+			<h3> و الصورة التانية بتوضح شكله بعد ال debug </h3>
+			<img src="debug.jpg">
+			
+			<h2> Section 6 : Some Techniques </h2>
+			<p> اول حاجة هانشوفها هى لو عايز اعمل ملف مؤقت اقدر احط فيه معلومات كتيرة و انا شغال على برنامج لو افترضنا انهم الف سطر </p>
+			<p> ممكن استعمل ملف مؤقت احط فيه المعلومات ديه و اسجلها فيه </p>
+			<p> و ده ليه مميزات كويسة ان المعلومات ديه هاتكون امنة لانها هاتختفى اول ما البرنامج يخلص فا ماحدش هايقدر يوصلها تانى غيرك انت لانك معاك ال script </p>
+			<p> و عشان اقدر اعمل الملف ده هاستخدم خاصية mktemp </p>
+			<p> عشان اعمل ملف مؤقت باكتب الامر : TEMP=$(mktemp /tmp/tempfile.XXXXXXXX) </p>
+			<p> ال XXXXXXXX بيبدلها بعد كده ال mktemp بحروف عشوائية من عنده لضمان انه ماحدش تانى يقدر يعرف اسم الملف </p>
+			<p> و لو عايز اعمل directory مؤقت اقدر احط فيه الملفات ديه و اول ما البرنامج يخلص تختفى هاكتب الامر </p>
+			<p> TEMPDIR=$(mktemp -d /tmp/tempdir.XXXXXXXX) </p>
+			<p> تانى ميزة معانا هى /div/null </p>
+			<p> يعنى ايه ؟ </p>
+			<p> لو افترضنا اننا استخدمنا الامر find </p>
+			<p> ساعتها هايطلعلنا نتايج كتييرة اوى .. و عشان نتفادى ان ده يحصل احنا نقدر نحول كمية المعلومات اللى ظهرتلنا لملف اسمع /div/null و اللى بنسمية ساعات  bit bucket او black hole. </p>
+			<p>  وهى بتشيل المعلومات اللى اتكتبت فيها و ماعملتش return ل write operation </p>
+			<p> مثال بيوضح اكتر لاستخدام ال /div/null </p>
+			<img src="null.jpg">
+			<h5> Random numbers and Data </h5> 
+			<p> و هى خاصية مفيدة حدا انى اعمل generate ل random numbers و ده بيساعدنى فى : </p>
+			<ul>
+				<li> انى لو عايز عمليات تكون بامان عن اى حد و عايز اعمل مجموعة ارقام عشوائية عشان كلمة سر </li>
+				<li> اعرف ال devices المتعرفة فى الجهاز </li>
+				<li> انى اخرج معلومات ممكن احتاجها بعد كده </li>
+			</ul>
+			<p> عشان استخدم الارقام العشوائية بستخدم الامر $RANDOM  </p>
+			<p> و اللى بيتنفذ من ال kernel او من مكتبة openssl اللى بتستخدم خوارزمية  FIPS140 عشان تخرج الارقام عشوائى </p>
+			<p> لو عايز تقرا اكتر عن خوارزمية FIPS140 <a href="http://en.wikipedia.org/wiki/FIPS_140-2"> http://en.wikipedia.org/wiki/FIPS_140-2 </a> </p>
+			
+			
+		</div>
+	</body>
+</html>
