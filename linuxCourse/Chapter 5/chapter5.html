@@ -1,0 +1,63 @@
+﻿<html>
+	<head> <title> Chapter 5 </title> </head>
+	
+	<body> 
+		<h1 align = "center"> Chapter 5 </h1>
+		
+		<div style="position: absolute;right: 0px;width: 300px;direction: rtl;"> 
+		<h2> Introduction </h2>
+		<p> وصلنا هنا لمرحلة اننا قدرنا ننزل نظام لينكس .. و نتعامل بطريقة بسيطة مع الملفات و ازاى نقدر نتحكم فى المستخدم </p>
+		<p> هانبدا من ال chapter ده اننا ازاى نقدر نزود على النظام نفسه و نشيل برامح و ننزل برامج و ازاى نقدر نعرف الانترنت وال wifi </p>
+		<p> باختصار ازاى تتحول الى مستخدم للنظام  فعليا بكل مافيه من برامج و امكانيات </p>
+		<h2> Section 1 </h2>
+		<p> اول حاجة هانتعلمها مع بعض هى ازاى اغير ال resolution </p>
+		<p> الطبيعى فى لينكس انه بيقدر يعمل customize لل resolution على حسب احتياج الشاشة بتاعت الجهاز اللى عليه ال System </p>
+		<p> بس فيه حالات بيحتاج فيها المستخدم انه يغير ال resolution بنفسه و ده بيحصل عن طريق system settings </p>
+		<p> عشان تعرف ازاى تغير ال resolution فى نظام CentOS شوف الفيديو من <a href = "https://www.youtube.com/watch?v=gDxMXzKtgxg" > هنا </a> </p>
+		<p> عشان تعرف ازاى تغير ال resolution فى نظام OpenSuse شوف الفيديو من <a href = "https://www.youtube.com/watch?v=bDecMomrFZs" > هنا </a> </p>
+		<p> عشان تعرف ازاى تغير ال resolution فى نظام Ubuntu شوف الفيديو من <a href = "https://www.youtube.com/watch?v=fJkZSlAi6IM" > هنا </a> </p>
+		<p> تانى حاجة معانا النهارده ازاى نقدر نغير ال time و ال date </p>
+		<p> علشان تقدر تغير ال date و ال time كل اللى هاتحتاجه انك تختار  Date and Time Settings من system settings او انك تضغط right click على ال time فى ال right panel من الشاشة عشان تقدر تغيره </p>
+		<p> Network Time Protocol هى طريقة مشهورة جدا فى نظام لينكس .. وهى ان ال time  وال date  هايتم تغيرهم عن طريق الانترنت و هو بيشوف المكان اللى انت فيه و بيقدر يعرف الوقت عندك كام .. بس طبعا لو عايز تغيره تقدر تغيره تانى زى ماتعلمنا </p>
+		<h2> Section 2 </h2>
+		<p> هانتكلم هنا عن ال Network configuration </p>
+		<p> فى نظام لينكس ملفات عشان تساعدنى فى انى اغير ال network بتاع النظام بس الملفات ديه بتتغير من توزيعة للتانية .. و كمان التغيير فيها مش سهل </p>
+		<p> عشان كده فيه tool فى لينكس بتساعدنى انى اعمل customize لل network بطريقة سهلة وهى ال Network manager </p>
+		<p> ال Network manager هو المسئول انه يعرضلى ال networks المتاحة ليه سواء كانت wifi او wired او حتى كمان كانت mobile broadband </p>
+		<p> Wired and Wireless Connections </p>
+		<p> انك تعمل wired connection فى اغلب الاحيان مش بتحتاج انك تعمل configuration بايدك لان ال Network manager بيعمل ده automatic </p>
+		<p> طيب فيه حالات بيكون فيها الجهاز static على network معين  و بيحتاج فيها انك تعرف ال wired network بنفسك و ده انت ممكن تعمله ببساطة بايدك عن طريق ال Network manager </p>
+		<p> لكن فى حالة ال wirless مش بيقدر يعمل connect من نفسه لازم تقدر تعرف ال wirless  و تدخل ال password لو فيه   تعرفه و ده برضة سهل انك تعمله بنفسك فى ال network manager </p>
+		<p> طيب ازاى نقدر باه نعرف wireless جديد فى centOS </p>
+		<ol>
+			<li> Right-click the Network Manager icon.</li>
+			<li> اختار Enable wireless </li>
+			<li> Click the Network Manager icon. </li>
+			<li> اختار ال network اللى عايز تعمل connect معاها </li>
+			<li> دخل ال password و لو صح هايتعمله save  ومش هاتحتاج كل مره تدخله تانى </li>
+			<li> عشان تعرف انت connect بانهى شبكة و لو عايز تعمل disconnect دوس على Network Manager icon </li>
+		</ol>
+		<p> طريقة تعريف ال wireless فى ubuntu </p>
+		<ol>
+			<li> In top panel, click Network Manager. </li>
+			<li> اختار Enable wireless </li>
+			<li> اختار ال network اللى عايز تعمل connect معاها </li>
+			<li> دخل ال password و لو صح هايتعمله save  ومش هاتحتاج كل مره تدخله تانى </li>
+			<li> عشان اعدل فى network قديم اضغط على Edit Connections. </li>
+		</ol>
+		<p> فى opensuse كل ال wired و ال wireless و ال vpn تقدر تعملها add  و edit من Network Connections </p>
+		<p> زى اللى فى المثال ده <a href = "https://www.youtube.com/watch?v=zSWv6VZCG8Q" > acces network in OpenSuse </a> </p> 
+		
+		<h2> Section 3 </h2>
+		<p> المفروض هنا نبدا نعرف طيب لو فيه برامج عايز انزلها و اعملها install او برامج مش عايزها و عايز اعملها uninstall اعمل ايه </p>
+		<p> فى CentOS تقدر تعرف ازاى بتم فى الفيديو ده <a href = "https://www.youtube.com/watch?v=2i64lMky8ZA" > Installing and Updating Software in CentOS  </a> </p>
+		<p> فى OpenSuse تقدر تشوف الفيديو ده <a href = "https://www.youtube.com/watch?v=a_0EUSU2l68" > Installing and Updating Software in OpenSUSE  </a> </p>
+		<p> فى ubuntu تقدر تشوف الفيديو ده <a href = "https://www.youtube.com/watch?v=iOJWFEdXcao" > Installing and Updating Software in Ubuntu </a> </p>
+		
+		<h2> Summary </h2>
+		<p> بكده تقدر تقول على نفسك مستخدم لنظام لينكس كا end user تقدر تنسطبه و ى تعرف ال network  و تفتح النت و تقفله و تنزل برامج و تشيلها </p>
+		<p> فى الفترة الجاية هانبدا نتعامل اكتر و بطريقة advanced اكتر مع النظام و مع ال command line :D </p>
+		<p> HAVE FUN WITH LINUX :D </p>
+		</div>
+	</body>
+</html>

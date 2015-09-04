@@ -1,0 +1,6 @@
+Practice for chapter 8 :
+1- make mount for some files 
+2- comparing two files 
+3- comparing three files
+4- make copy using cp and rsync
+5- comparise group of files using all commands explained

@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Chapter 6 part 2</title>
+	<meta name="generator" content="LibreOffice 4.2.6.3 (Linux)">
+	<meta name="created" content="0;0">
+	<meta name="changedby" content="ahmad ">
+	<meta name="changed" content="20140918;211100832032877">
+	<style type="text/css">
+	<!--
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 120% }
+		pre.cjk { font-family: "Droid Sans Fallback", monospace }
+	-->
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<pre class="western" align="right"><span lang="hi-IN">هنتكلم فى
+الجزء دة عن </span>
+</pre>
+<pre class="western" align="right">1-Standard File Streams</pre>
+<pre class="western" align="right">2-I/O Redirection 
+</pre>
+<pre class="western" align="right">3-<span lang="hi-IN">ازاى اسطب
+</span>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right">-----------------------------------------------------------------------------------</pre>
+<pre class="western" align="right">1-Standard File Streams</pre>
+<pre class="western" align="right">a-standard input (stdin)</pre>
+<pre class="western" align="right"><span lang="hi-IN">ال </span>
+</pre>
+<pre class="western" align="right">stdin 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">دة بيكون
+اى امر انت بتكتبة من ال</span></pre>
+<pre class="western" align="right">keyboard</pre>
+<pre class="western" align="right">b-standard output (stdout) &amp;
+error (stderr) 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">انما ال</span></pre>
+<pre class="western" align="right"> stdout &amp;stderr 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">دى الحاجات
+اللى بتظهر على الشاشة  لما نكتب الامر 
+لو اتنفذ صح بيسمى </span>
+</pre>
+<pre class="western" align="right">stdout 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">ولو فية
+غلط بيسمى </span>
+</pre>
+<pre class="western" align="right">stderr</pre>
+<pre class="western" align="right"> <span lang="hi-IN">وبيظهر
+على الشاشة بردو </span>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">فيه حاجة
+اسمها </span>
+</pre>
+<pre class="western" align="right">i/o redirection 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">دى بتساعدنى
+انى ممكن اكتب امر واطلع الناتج بتاعة فى
+ملف فى مكان تانى بستخدم العلامة دى </span>
+</pre>
+<pre class="western" align="right">&gt; 
+</pre>
+<pre class="western" align="right"> <span lang="hi-IN">وبتستخدم
+بردوا  لما اكون عايز اعرف اية الايرور
+اللى حصل بستخدم العلامة دى </span>
+</pre>
+<pre class="western" align="right">?&gt;</pre>
+<pre class="western" align="right"><span lang="hi-IN">لو محتاج
+اطلع الاتنين الايرور وناتج الامر بستخدم
+</span>
+</pre>
+<pre class="western" align="right">&amp;&gt;</pre>
+<pre class="western" align="right"><span lang="hi-IN">مثال روح
+على سطح المكتب </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">جرب تكتب
+كدة </span>
+</pre>
+<pre class="western" align="right">ls -la &amp;&gt;log</pre>
+<pre class="western" align="right">**<span lang="hi-IN">هتلاقى
+ملف موجود على سطح المكتب اسمة </span>
+</pre>
+<pre class="western" align="right">log 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">افتح الملف
+وبعد كدة على التيرمنال اكتب </span>
+</pre>
+<pre class="western" align="right">ls -la 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">وقارن
+الاتنين </span>
+</pre>
+<pre class="western" align="right">--------------------------------------------------------------------------------------------------------</pre>
+<pre class="western" align="right">2-pipe 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">اية ال </span>
+</pre>
+<pre class="western" align="right">pipe 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">دى هيا دى
+</span>
+</pre>
+<pre class="western" align="right">&quot; | &quot;</pre>
+<pre class="western" align="right"><span lang="hi-IN">وظيفتها
+انها بتساعدك تكتب اكتر من امر فى نفس
+اللحظة بس يكون ليهم علاقة ببعض </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">مثال </span>:</pre>
+<pre class="western" align="right">ls -la |tail 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">دة بيجيب
+اخر </span>10 <span lang="hi-IN">بس </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">طب لو عايز
+اكتب اكتر من امر ملهومش علاقة ببعض </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">بستخدم ال
+</span>&amp;&amp;</pre>
+<pre class="western" align="right"><span lang="hi-IN">الامر
+الاول </span>&amp;&amp; <span lang="hi-IN">الامر التانى
+</span>&amp;&amp; <span lang="hi-IN">الامر التالت </span>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right">----------------------------------------------------------------------------------------</pre>
+<pre class="western" align="right">searching for files 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">علشان نقدر
+نعمل بنستخدم ال </span>3 <span lang="hi-IN">اوامر
+دول </span>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right">1-locate</pre>
+<pre class="western" align="right">2-grep</pre>
+<pre class="western" align="right">3-find</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">جرب دة </span>
+</pre>
+<pre class="western" align="right">locate zip | grep bin</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right">---------------------------------------------------------------------</pre>
+<pre class="western" align="right"><span lang="hi-IN">هنتعامل
+مع الملفات </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">الجزء دة
+هنتعلم ازاى اكتب واقراء ملف من الشاشة
+السودة </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">اول حاجة
+هعمل فولدر اسمية اى اسم انا عايزة </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">مش هنعمل
+الفولدر بال </span>gui 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">علشان نعمل
+الفولدر نكتب الامر دة </span>
+</pre>
+<pre class="western" align="right">mkdir foldername</pre>
+<pre class="western" align="right"><span lang="hi-IN">هنعمل ملف
+ونسمية اى اسم انا عايزة</span></pre>
+<pre class="western" align="right"><span lang="hi-IN">وعلشان
+نعمل الملف بنستخدم الامر دة </span>
+</pre>
+<pre class="western" align="right">touch filename</pre>
+<pre class="western" align="right"><span lang="hi-IN">طب عايز
+اكتب جوا الملف فى الشابتر دة لما نكتب
+هنستخدم ال </span>
+</pre>
+<pre class="western" align="right">gui</pre>
+<pre class="western" align="right"><span lang="hi-IN">الشابتر
+اللى جى هنتعلم ازاى اقدر اكتب من غير ما
+احتاج انى اروح</span></pre>
+<pre class="western" align="right"> gui 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">هنروح نفتح
+الملف ونكتب اللى احنا عايزينة ونعمل حفظ
+ونرررررجع للشاشة السودة </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">وجرب كدة
+تكتب </span>
+</pre>
+<pre class="western" align="right">cat filename</pre>
+<pre class="western" align="right">	**<span lang="hi-IN">حبة لعب
+</span>**</pre>
+<pre class="western" align="right"><span lang="hi-IN">اية رايك
+نفتح الملف من تخت لفوق </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">جرب اكتب
+</span>
+</pre>
+<pre class="western" align="right">tac filename</pre>
+<pre class="western" align="right"><span lang="hi-IN">طب اية
+رايك تجيب اخر </span>10 <span lang="hi-IN">سطر بس فى
+الملف دة </span>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">جرب اكتب
+</span>
+</pre>
+<pre class="western" align="right">tail filename</pre>
+<pre class="western" align="right"><span lang="hi-IN">طب انا
+عايز اعرض اول </span>10 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">اكتب </span>
+</pre>
+<pre class="western" align="right">head filename</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right">**<span lang="hi-IN">كفاية
+لعب </span>**</pre>
+<pre class="western" align="right"> <span lang="hi-IN">طب لو
+عايزين نمسح الملف دة ولو عايزين نمسج
+الفولدر كلة </span>
+</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right">rm -rf filename/foldername</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right">-------------------------------------------------------------------</pre>
+<pre class="western" align="right"><span lang="hi-IN">هنسطب
+برامج من الشاشة السودة </span>
+</pre>
+<pre class="western" align="right">CLI</pre>
+<pre class="western" align="right"><span lang="hi-IN">لو انت
+بتستخدم اى توزيعة من توزيعات </span>
+</pre>
+<pre class="western" align="right">debian 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">هتستخدم
+الامر دة </span>
+</pre>
+<pre class="western" align="right">apt-get install packagename</pre>
+<pre class="western" align="right"><span lang="hi-IN">لو بتستخدم
+توزيعة من توزيعات </span>
+</pre>
+<pre class="western" align="right">rpm 
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">هتستخدم
+الامر دة </span>
+</pre>
+<pre class="western" align="right">yum install packagename</pre>
+<pre class="western" align="right"><br>
+</pre>
+<pre class="western" align="right"><span lang="hi-IN">لو بتستخدم
+</span>
+</pre>
+<pre class="western" align="right">openSUSE</pre>
+<pre class="western" align="right"><span lang="hi-IN">هتستخدم
+الامر دة </span>
+</pre>
+<pre class="western" align="right"> zypper install packagename</pre>
+</body>
+</html>

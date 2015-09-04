@@ -1,0 +1,4 @@
+1- use command ping with internet and without it 
+2- use command traceroute 
+3- use command host 
+4- use one of the command broswers 
