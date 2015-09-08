@@ -135,9 +135,9 @@
      id="namedview4138"
      showgrid="false"
      showguides="false"
-     inkscape:zoom="0.097851565"
+     inkscape:zoom="0.55353204"
      inkscape:cx="389.58748"
-     inkscape:cy="842.43036"
+     inkscape:cy="1951.2818"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -160,6 +160,13 @@
        orientation="0,0"
        id="guide3713" />
   </sodipodi:namedview>
+  <ellipse
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.91899967;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path4188"
+     cx="763.60217"
+     cy="839.21729"
+     rx="48.489731"
+     ry="72.077072" />
   <rect
      inkscape:export-ydpi="90"
      inkscape:export-xdpi="90"
