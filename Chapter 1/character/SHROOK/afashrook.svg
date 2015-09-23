@@ -29,7 +29,15 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3340" />
+     id="defs3340">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 146.25 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="375 : 146.25 : 1"
+       inkscape:persp3d-origin="187.5 : 97.5 : 1"
+       id="perspective4209" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -152,14 +160,6 @@
      id="layer11"
      inkscape:label="BODY"
      style="display:inline">
-    <path
-       style="fill:#ff7f2a;fill-opacity:1;stroke:#000000;stroke-width:2.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 150.25701,310.56758 115.61566,1.73806 c 0,0 -6.63232,91.30465 -0.22652,147.09847 6.4058,55.79383 41.77348,187.09847 41.77348,187.09847 l -203.57861,1.73806 c 0,0 45.30481,-136.36608 52.208,-192.83653 6.90318,-56.47045 -5.79201,-144.83653 -5.79201,-144.83653 z"
-       id="rect4164"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cczcczc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <path
        style="display:inline;fill:#ff7f2a;fill-opacity:1;stroke:#000000;stroke-width:2.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 567.90925,281.82786 115.61561,1.73806 c 0,0 -12.6323,91.30465 -6.2265,147.09846 6.4058,55.79383 3.7735,187.09847 3.7735,187.09847 l -111.57861,1.73806 c 0,0 -0.6952,-132.36608 6.208,-188.83653 6.9032,-56.47044 -7.792,-148.83652 -7.792,-148.83652 z"
