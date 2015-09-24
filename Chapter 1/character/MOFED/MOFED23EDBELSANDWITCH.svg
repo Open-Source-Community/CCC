@@ -28,15 +28,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.31415962"
-     inkscape:cx="351.42567"
-     inkscape:cy="418.08211"
+     inkscape:cx="-126.86604"
+     inkscape:cy="921.01116"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1024"
-     inkscape:window-height="706"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="2434"
+     inkscape:window-height="1471"
+     inkscape:window-x="126"
+     inkscape:window-y="55"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,92 +55,92 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#784421;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 473.92677,618.72737 c -38.81623,24.97855 -123.75631,52.96569 -149.54712,109.00032 -31.13302,67.64144 12.22284,174.04988 17.46014,222.7034 l 35.33101,-0.0756 18.90322,-157.56842 68.73801,-58.75811 c 0,0 -40.09874,31.29001 -48.91634,53.89119 -20.23094,51.85573 -1.15341,166.98335 -1.15341,166.98335 l 32.14587,3.01696 c 3.13356,-21.72107 40.61636,-69.44008 40.9072,-138.03535 l 43.83919,-16.37722 c 0,0 72.42162,-34.27443 89.61435,-67.48105 19.29632,-37.26956 15.68051,-107.10656 3.79241,-125.84884"
+       style="fill:#784421;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 238.20457,608.3329 c -182.567323,117.48352 -582.07247,249.11759 -703.37636,512.6695 -146.43029,318.1432 57.48862,818.622 82.12161,1047.4579 l 166.17504,-0.3556 88.90895,-741.1036 323.30071,-276.3615 c 0,0 -188.59945,147.1687 -230.071946,253.4706 -95.153724,243.897 -5.424922,785.3854 -5.424922,785.3854 l 151.194118,14.19 c 14.73832,-102.1624 191.03402,-326.6029 192.40195,-649.2321 l 206.1922,-77.0283 c 0,0 340.62612,-161.2055 421.48999,-317.3887 90.75779,-175.29279 73.75129,-503.76252 17.83712,-591.9145"
        id="path4101"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="caccccaccccac"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <rect
-       style="fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:1.88135064;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4014"
-       width="39.39595"
-       height="38.385796"
-       x="497.01025"
-       y="365.96353"
+       width="185.29398"
+       height="180.54283"
+       x="346.77487"
+       y="-580.5105"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <ellipse
-       style="fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:1.02377343"
+       style="fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:4.81519127"
        id="path2985"
-       cx="517.66296"
-       cy="270.56595"
-       rx="78.8955"
-       ry="98.904091"
+       cx="443.91235"
+       cy="-1029.2012"
+       rx="371.0752"
+       ry="465.18314"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 530.85037,172.51932 c 34.68368,17.40788 52.08144,41.45561 63.88164,79.0593"
+       style="fill:none;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 505.93768,-1490.3514 c 163.13039,81.8758 244.95861,194.9813 300.45938,371.8456"
        id="path2995"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.47367957"
-       d="m 440.03178,249.25045 c 1.7224,-23.33668 11.41169,-43.93113 29.03774,-58.41563 16.07826,-13.2126 36.15461,-19.62171 56.85073,-18.14885 3.09705,0.2204 6.98365,0.25539 7.09011,0.34861 0.27047,0.23681 -4.1298,14.54932 -6.94241,20.81836 -3.23253,7.20506 -11.48415,20.22987 -14.72231,24.47298 -4.85201,6.3578 -10.02503,10.43759 -20.92309,16.1611 -9.19641,4.82982 -29.01138,12.33336 -40.75031,16.22234 -1.6705,0.55342 -4.60213,1.52365 -6.5147,2.15608 l -3.47743,1.14987 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.22789335"
+       d="m 78.783689,-1129.456 c 8.101087,-109.7612 53.673471,-206.6246 136.575411,-274.7508 75.62212,-62.1437 170.04872,-92.2882 267.39037,-85.3608 14.56659,1.0366 32.84672,1.2012 33.34744,1.6396 1.27213,1.1138 -19.42399,68.431 -32.65276,97.9166 -15.20381,33.8882 -54.01427,95.1487 -69.24457,115.1057 -22.82082,29.9031 -47.15147,49.0919 -98.40914,76.0117 -43.25418,22.7165 -136.45144,58.0084 -191.66404,76.2998 -7.85699,2.6029 -21.64555,7.1663 -30.641089,10.1408 l -16.355663,5.4083 z"
        id="path2997"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssscssssscs"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49723428"
-       d="m 594.32643,254.38381 c -2.62768,-6.97086 -10.81486,-25.72559 -14.92366,-32.50428 -10.78195,-17.78801 -27.47909,-33.95231 -41.92182,-44.03246 -5.14078,-3.58794 -3.52745,-3.29265 1.76417,-1.49973 31.64418,10.72177 54.27966,44.9207 56.79796,80.53785 0.0744,1.05243 0.21578,1.89414 0.11801,1.89414 -0.0978,0 -0.92339,-1.97799 -1.83469,-4.39552 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.33867979"
+       d="m 804.48945,-1105.3119 c -12.35895,-32.7866 -50.86634,-120.9971 -70.19158,-152.8798 -50.71156,-83.6637 -129.2445,-159.6906 -197.17409,-207.1012 -24.17902,-16.8754 -16.59093,-15.4866 8.29755,-7.0539 148.83449,50.4286 255.29767,211.279 267.14218,378.7998 0.34994,4.95 1.01489,8.9089 0.55504,8.9089 -0.45999,0 -4.34305,-9.3033 -8.62923,-20.6738 z"
        id="path2999"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssssscc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 532.87067,173.02439 c -0.3414,6.60686 11.29727,22.64734 18.94036,34.59772 -11.21876,-12.74198 -21.31356,-26.49788 -18.94036,-34.59772 z"
+       style="fill:#000000;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 515.43991,-1487.9758 c -1.60574,31.0746 53.13529,106.5189 89.08363,162.726 -52.76606,-59.9302 -100.24569,-124.6295 -89.08363,-162.726 z"
        id="path3001"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.24174342;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 473.16079,248.38029 c 6.21028,-6.44809 12.71175,-10.20047 19.91857,-11.49607 l 3.18246,-0.57214 0,4.7355 0,4.73554 -5.13988,0.72481 c -2.82694,0.39863 -8.1839,1.56349 -11.90436,2.58849 -3.72044,1.02505 -7.16425,1.8637 -7.65297,1.8637 -0.48866,0 0.22963,-1.16091 1.59618,-2.57983 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.13701034;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 234.60188,-1133.5487 c 29.20928,-30.3278 59.78814,-47.9767 93.68452,-54.0704 l 14.96831,-2.6909 0,22.2728 0,22.273 -24.17479,3.4091 c -13.29616,1.8749 -38.49197,7.3537 -55.99068,12.1746 -17.49864,4.8212 -33.69616,8.7657 -35.9948,8.7657 -2.29834,0 1.08004,-5.4602 7.50744,-12.1339 z"
        id="path3952"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
        inkscape:connector-curvature="0"
        id="path3115"
-       d="m 562.25737,248.38029 c -6.21028,-6.44809 -12.71175,-10.20047 -19.91857,-11.49607 l -3.18246,-0.57214 0,4.7355 0,4.73554 5.13988,0.72481 c 2.82694,0.39863 8.1839,1.56349 11.90436,2.58849 3.72044,1.02505 7.16425,1.8637 7.65297,1.8637 0.48866,0 -0.22963,-1.16091 -1.59618,-2.57983 z"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.24174342;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 653.65661,-1133.5487 c -29.20929,-30.3278 -59.78815,-47.9767 -93.68453,-54.0704 l -14.9683,-2.6909 0,22.2728 0,22.273 24.17478,3.4091 c 13.29616,1.8749 38.49196,7.3537 55.99069,12.1746 17.49862,4.8212 33.69616,8.7657 35.99478,8.7657 2.29837,0 -1.08003,-5.4602 -7.50742,-12.1339 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.13701034;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <g
        id="g3992"
-       transform="translate(96.88683,36.507627)"
+       transform="matrix(4.7033761,0,0,4.7033761,-1535.1561,-2130.0657)"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929">
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93">
       <path
          sodipodi:nodetypes="ccsc"
          inkscape:connector-curvature="0"
@@ -155,10 +155,10 @@
     </g>
     <g
        id="g4010"
-       transform="matrix(0.58893875,0,0,0.78991602,268.33406,93.87962)"
+       transform="matrix(2.7700004,0,0,3.7152721,-728.77527,-1860.2235)"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929">
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -173,172 +173,172 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.13024242;stroke-miterlimit:4" />
     </g>
     <path
-       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:0.77027482;stroke-miterlimit:4"
-       d="m 640.66915,554.10228 c -3.7158,98.19327 -44.18284,146.22897 -125.22361,148.00499 -74.79371,1.63911 -126.67914,-36.28233 -125.22361,-148.00499 1.31695,-101.08571 35.26325,-170.54374 125.22361,-171.13261 99.17643,-0.64919 129.0035,71.24585 125.22361,171.13261 z"
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:3.62289214;stroke-miterlimit:4"
+       d="m 1022.4567,304.37679 c -17.4768,461.8399 -207.8085,687.76983 -588.97374,696.12311 -351.782943,7.7094 -595.81965,-170.64941 -588.97374,-696.12311 6.19411,-475.44411 165.856339,-802.13135 588.97374,-804.90103 466.46406,-3.05339 606.75204,335.09604 588.97374,804.90103 z"
        id="path4016"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.99794739px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 533.87979,384.95362 c -6.88395,101.94392 2.92853,205.743 20.20511,310.37142"
+       style="fill:none;stroke:#000000;stroke-width:4.69372225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 520.18617,-491.19298 c -32.3778,479.480596 13.77397,967.68672 95.03224,1459.79353"
        id="path4019"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
        inkscape:connector-curvature="0"
        id="path4021"
-       d="m 499.2831,384.95465 c 5.76945,106.66659 -4.55125,209.31064 -20.20305,310.62191"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 357.46493,-491.18813 C 384.60083,10.504971 336.05868,493.27854 262.44238,969.78351"
+       style="fill:none;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72730988;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 503.91312,700.55933 c -4.86831,-0.43733 -12.25984,-1.59869 -16.42564,-2.58077 l -7.57416,-1.78561 0.52667,-3.09579 c 7.53893,-44.31409 15.82287,-119.87065 19.27801,-175.83187 1.8343,-29.70924 2.48142,-100.02638 1.10311,-119.86613 -0.79396,-11.42848 -0.75519,-11.79986 1.29975,-12.45207 2.81946,-0.89486 24.06555,-0.8629 27.66946,0.0416 l 2.84436,0.71389 -0.84368,21.33464 c -1.13561,28.71692 -0.82952,81.29836 0.62109,106.69252 2.93045,51.30011 9.22519,109.02511 17.74918,162.76621 1.37739,8.68396 2.50434,16.51257 2.50434,17.39691 0,4.29379 -29.80158,8.36888 -48.75249,6.66645 l 0,0 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.42081213;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 379.24166,993.21938 c -22.89751,-2.05692 -57.66264,-7.5192 -77.25597,-12.13836 l -35.62413,-8.39837 2.47714,-14.56068 c 35.45842,-208.42581 74.4209,-563.79673 90.67173,-827.00339 8.6274,-139.7337277 11.67104,-470.46169 5.18833,-563.77549 -3.7343,-53.75244 -3.55193,-55.49918 6.11321,-58.56678 13.261,-4.20887 113.18934,-4.05854 130.13989,0.19566 l 13.37809,3.3577 -3.96814,100.34483 c -5.3412,135.06647 -3.90154,382.3767588 2.92122,501.81506 13.783,241.28371 43.38954,512.7861 83.48107,765.55075 6.47839,40.84392 11.77885,77.66474 11.77885,81.82414 0,20.19531 -140.16803,39.36205 -229.30129,31.35482 l 0,0 z"
        id="path4023"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4025"
-       cx="539.18408"
-       cy="416.72369"
-       r="2.2728431"
+       cx="545.13428"
+       cy="-341.76639"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
        id="path4027"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
-       cx="538.67908"
-       cy="443.9978"
-       r="2.2728431"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
+       cx="542.75903"
+       cy="-213.48596"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4029"
-       cx="538.67908"
-       cy="472.78717"
-       r="2.2728431"
+       cx="542.75903"
+       cy="-78.078766"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
        id="path4031"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
-       cx="539.68921"
-       cy="502.08157"
-       r="2.2728431"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
+       cx="547.51007"
+       cy="59.703857"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4033"
-       cx="541.70947"
-       cy="531.37598"
-       r="2.2728431"
+       cx="557.01215"
+       cy="197.48645"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
        id="path4035"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
-       cx="543.7298"
-       cy="563.70087"
-       r="2.2728431"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
+       cx="566.5144"
+       cy="349.52255"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4037"
-       cx="547.77039"
-       cy="598.04608"
-       r="2.2728431"
+       cx="585.51886"
+       cy="511.061"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
        id="path4039"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
-       cx="552.3161"
-       cy="625.82526"
-       r="2.2728431"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
+       cx="606.89911"
+       cy="641.71692"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.72000003;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.38643098;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4041"
-       cx="555.34656"
-       cy="653.60449"
-       r="2.2728431"
+       cx="621.15247"
+       cy="772.37311"
+       r="10.690036"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#c87137;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-       d="m 498.52549,396.77318 -31.31474,20.20305 15.65737,-41.41625 13.13198,-1.01015 z"
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 353.90161,-435.60114 -147.28501,95.02254 73.64251,-194.7962 61.76463,-4.75112 z"
        id="path4063"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path4065"
-       d="m 534.38589,396.77318 31.31474,20.20305 -15.65737,-41.41625 -13.13198,-1.01015 z"
-       style="fill:#c87137;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 522.56656,-435.60114 147.285,95.02254 -73.64251,-194.7962 -61.76464,-4.75112 z"
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 461.87516,387.35318 c 0.13054,-6.38496 -93.11383,65.31053 -93.88369,121.64578 -0.33929,24.82794 25.76342,32.65243 45.72362,11.77294 12.796,-13.38533 23.61072,-23.5129 33.62391,-43.68078 13.11552,-26.4164 23.71692,-62.08556 24.11918,-64.53797 l -11.84367,-12.44054 c 0,0 -19.6799,54.05457 -46.12487,68.1389 11.69261,-9.80618 50.84411,-59.55296 48.38552,-80.89833 z"
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 181.52131,-479.90693 C 182.1353,-509.9378 -256.42805,-172.72695 -260.04899,92.238918 -261.6448,209.01405 -138.87393,245.81557 -44.993609,147.61149 15.190796,84.655239 66.056492,37.021464 113.15229,-57.835662 174.83951,-182.08192 224.70187,-349.8474 226.59386,-361.382 l -55.70523,-58.51254 c 0,0 -92.561975,254.23897 -216.942608,320.48288 54.9947417,-46.12215 239.138968,-280.09997 227.575288,-380.49527 z"
        id="path4071"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssscccc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
        sodipodi:nodetypes="csccscc"
        inkscape:connector-curvature="0"
        id="path4073"
-       d="m 589.00762,403.33917 c 2.2781,-6.38445 119.81857,35.71908 116.20345,90.91373 -3.48033,53.1366 -113.14248,78.71228 -115.60156,70.04316 l -10.10152,-19.1929 c 0,0 70.24821,-31.17277 74.1853,-50.85026 1.89315,-9.46194 -21.03989,-24.157 -21.03989,-24.157 -7.20871,-28.48335 -25.84002,-48.87043 -43.64578,-66.75673 z"
-       style="fill:#c87137;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 779.4731,-404.71881 c 10.71476,-30.02847 563.5518,168.00027 546.5485,427.60147 -16.3693,249.92142 -532.15161,370.21344 -543.71759,329.43932 l -47.51124,-90.27144 c 0,0 330.40373,-146.61726 348.92143,-239.16788 8.9041,-44.503075 -98.95863,-113.619463 -98.95863,-113.619463 C 950.85033,-224.70471 863.22028,-320.59281 779.4731,-404.71881 Z"
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:4.70337629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
        sodipodi:nodetypes="cssssssssccssc"
        inkscape:connector-curvature="0"
        id="path4097"
-       d="m 564.51926,539.28628 c -5.27738,-5.10334 -18.74613,-10.47431 -22.13139,-4.7056 -3.23459,5.51194 15.8083,6.40842 15.44615,7.24157 -2.49937,5.75029 -18.76891,-3.30543 -19.6745,4.30515 -0.86402,7.26128 23.63283,3.96598 19.1845,9.29265 -1.26475,1.51446 -19.39229,-4.29429 -19.25394,1.13943 0.20284,7.96686 21.26779,3.72586 20.35096,7.96959 -0.31948,1.47874 -20.799,-2.1259 -19.82483,6.17469 0.58301,4.96771 17.05776,-1.8445 20.56909,0.53155 3.6451,2.46657 -15.305,1.18852 -16.94038,5.79101 4.0255,5.75701 26.21922,-4.91386 29.67332,-5.62507 4.48376,-0.007 20.90223,-1.39936 19.8292,-13.71189 -1.54383,-17.71425 -21.65465,-13.01333 -27.22817,-18.40306 z"
-       style="fill:#ffccaa;stroke:#000000;stroke-width:0.59117693px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 664.29512,234.69157 c -24.82151,-24.00293 -88.1701,-49.26461 -104.09225,-22.13219 -15.21349,25.92472 74.35239,30.14119 72.64906,34.05981 -11.75548,27.04579 -88.27725,-15.54668 -92.53657,20.24874 -4.06382,34.15253 111.15409,18.6535 90.23192,43.70683 -5.9486,7.12307 -91.20924,-20.19766 -90.55852,5.35917 0.95403,37.47114 100.0304,17.52412 95.71821,37.48399 -1.50264,6.95506 -97.82552,-9.99891 -93.24364,29.04188 2.74213,23.36502 80.22907,-8.67538 96.74417,2.50008 17.14429,11.60121 -71.98517,5.59006 -79.67697,27.2373 18.93343,27.07738 123.31885,-23.11174 139.56477,-26.45682 21.08882,-0.0329 98.31107,-6.58172 93.26419,-64.49218 -7.2612,-83.31677 -101.84995,-61.20658 -128.06432,-86.55652 z"
+       style="fill:#ffccaa;stroke:#000000;stroke-width:2.78052759px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <g
-       transform="matrix(1.7876149,0,0,1.8556599,-179.83726,-74.613443)"
+       transform="matrix(8.4078252,0,0,8.7278665,-2836.6936,-2652.7097)"
        id="g4183"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929">
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93">
       <ellipse
          ry="13.580034"
          rx="10.637693"
@@ -362,10 +362,10 @@
     </g>
     <g
        id="g4191"
-       transform="matrix(1.7876149,0,0,1.8556599,-125.83726,-74.613443)"
+       transform="matrix(8.4078252,0,0,8.7278665,-2582.7112,-2652.7097)"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929">
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93">
       <ellipse
          style="fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:0.89999998;stroke-miterlimit:4;stroke-dasharray:none"
          id="ellipse4193"
@@ -388,58 +388,76 @@
          sodipodi:nodetypes="sssss" />
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.53071666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 109.9134,-113.76051 c -10.989299,0.69472 -15.866941,5.38865 -22.629885,12.65656 7.280443,-1.19919 14.055285,-4.13308 21.850075,-3.56747 z"
+       style="fill:none;stroke:#000000;stroke-width:0.59980547px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1333.0534,-527.2999 c -12.4199,0.78516 -17.9325,6.09015 -25.5758,14.3042 8.2281,-1.3553 15.885,-4.67113 24.6945,-4.03189 z"
        id="path3878"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <ellipse
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85999656;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.97195113;stroke-miterlimit:4;stroke-dasharray:none"
        id="path3880"
        transform="matrix(0.99815176,0.06077055,-0.07578051,0.99712452,0,0)"
-       cx="94.138039"
-       cy="-93.430756"
-       rx="11.079042"
-       ry="11.905688" />
+       cx="-1377.0758"
+       cy="-415.06226"
+       rx="12.521316"
+       ry="13.455574"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.17311871px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 111.93084,-90.34544 c -7.56033,-1.69181 -13.965812,-1.923 -21.729022,-0.94526"
+       style="fill:none;stroke:#000000;stroke-width:1.32583559px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1330.7734,-500.83665 c -8.5445,-1.91205 -15.7838,-2.17333 -24.5576,-1.06831"
        id="path3882"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <ellipse
-       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:1.28093636;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:1.44768894;stroke-miterlimit:4;stroke-dasharray:none"
        id="path3884"
        transform="matrix(0.99815176,0.06077055,-0.07578051,0.99712452,0,0)"
-       cx="97.291824"
-       cy="-91.376892"
-       rx="2.1253052"
-       ry="1.9042009" />
+       cx="-1373.5115"
+       cy="-412.74103"
+       rx="2.401978"
+       ry="2.1520903"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.85801435;stroke-miterlimit:4"
-       d="m 103.05755,-43.89186 12.45502,1.11947 -0.15656,2.06008 -12.48377,1.44755 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.96971089;stroke-miterlimit:4"
+       d="m -1340.8018,-448.33573 14.0765,1.2652 -0.177,2.32827 -14.1089,1.63599 z"
        id="rect3918"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.58655936;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 27.771158,-149.9995 c -4.51372,-1.23064 -14.54543,-2.62405 -22.2055574,0.59188 0,0 5.5555574,17.05808 12.1975874,17.47777"
+       style="fill:none;stroke:#000000;stroke-width:0.66291779;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -141.59162,-456.73488 c -5.10132,-1.39084 -16.43896,-2.96565 -25.09628,0.66893 0,0 6.27878,19.27871 13.78547,19.75303"
        id="path3925"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26269463;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 84.191675,-102.35927 c 7.127588,-6.74772 14.336781,-10.48809 22.086795,-11.45924 l 3.42233,-0.42886 -0.39898,5.24995 -0.39899,5.24998 -5.51051,0.4718 c -3.03078,0.25945 -8.808523,1.20506 -12.83941,2.10126 -4.030876,0.89626 -7.752757,1.60372 -8.270914,1.57217 -0.518082,-0.0315 0.341272,-1.2722 1.909679,-2.75706 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.29689229;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1362.1235,-514.41444 c 8.0554,-7.62614 16.203,-11.85343 24.962,-12.95101 l 3.8678,-0.48469 -0.4509,5.93339 -0.4509,5.93343 -6.2279,0.53322 c -3.4253,0.29322 -9.9552,1.36193 -14.5108,2.3748 -4.5557,1.01293 -8.7621,1.81249 -9.3476,1.77683 -0.5856,-0.0356 0.3857,-1.43781 2.1583,-3.11597 z"
        id="path3952-3"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.24174342;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 184.59887,-117.31605 c -6.21028,-6.44809 -12.71175,-10.20047 -19.91857,-11.49607 l -3.18246,-0.57214 0,4.7355 0,4.73554 5.13988,0.72481 c 2.82694,0.39863 8.1839,1.56349 11.90436,2.58849 3.72044,1.02505 7.16425,1.8637 7.65297,1.8637 0.48866,0 -0.22963,-1.16091 -1.59618,-2.57983 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.27321362;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1248.6453,-531.3183 c -7.0188,-7.2875 -14.3666,-11.52837 -22.5116,-12.99263 l -3.5968,-0.64662 0,5.35197 0,5.35201 5.809,0.81917 c 3.195,0.45052 9.2493,1.76702 13.4541,2.92546 4.2048,1.15849 8.0969,2.10631 8.6492,2.10631 0.5523,0 -0.2595,-1.31203 -1.8039,-2.91567 z"
        id="path4247"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93" />
     <g
-       transform="matrix(1.7876149,0,0,1.8556599,-503.49576,-440.30978)"
-       id="g4269">
+       transform="matrix(2.0203271,0,0,2.0972302,-2026.3164,-896.35944)"
+       id="g4269"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93">
       <ellipse
          ry="13.580034"
          rx="10.637693"
@@ -463,7 +481,9 @@
     </g>
     <g
        id="g4198"
-       transform="matrix(0.29775407,0,0,0.22622761,317.53105,269.54902)">
+       transform="matrix(1.4004494,0,0,1.0640335,-497.38333,-1033.9842)"
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93">
       <path
          style="fill:#fbead8"
          d="m 612.46951,566.82586 c -8.9375,-0.53183 -35.65625,-1.88794 -59.375,-3.01359 -23.71875,-1.12565 -52.89052,-2.57799 -64.82617,-3.22741 -11.93563,-0.64943 -22.3859,-1.18078 -23.22281,-1.18078 -1.56942,0 -4.45102,-10.26087 -4.45102,-15.84934 0,-3.11547 -0.12376,-3.15448 -9.0625,-2.85656 -11.71464,0.39044 -12.1875,0.31405 -12.1875,-1.9689 0,-2.96158 4.57598,-11.25529 8.97326,-16.2635 6.37145,-7.25669 24.87285,-22.42336 31.65174,-25.94678 l 6.25,-3.24852 -11.25,-0.24859 c -6.1875,-0.13672 -12.06948,-0.30515 -13.07107,-0.37427 -3.99954,-0.27603 -7.67744,-23.59678 -5.17649,-32.82308 1.02702,-3.78882 3.36069,-6.99363 8.57917,-11.78173 6.58168,-6.03889 46.5904,-33.08723 83.95621,-56.75954 l 15.30044,-9.69328 -3.85663,-3.52249 c -10.43294,-9.52902 -0.51289,-18.66326 28.64337,-26.3744 13.60624,-3.59852 25.58809,-4.05238 65.23928,-2.47115 19.46214,0.77613 53.94822,2.00451 76.63572,2.72975 51.27714,1.63916 62.9585,2.75958 71.3582,6.84436 3.54348,1.72319 6.86368,4.34061 7.5,5.9125 0.62799,1.55129 0.86055,9.1887 0.5168,16.97203 l -0.625,14.15152 -5.625,5.29523 -5.625,5.29524 3.75,1.80325 c 3.03494,1.4594 3.76325,2.60378 3.81948,6.00146 0.058,3.50872 0.72527,4.47396 4.0625,5.87717 4.24148,1.78341 4.75066,3.04832 2.73964,6.80593 -0.83785,1.56553 -0.83785,2.59879 0,3.1166 0.72552,0.44839 1.25338,7.11123 1.25338,15.82049 0,17.10177 -0.77006,19.25601 -9.16674,25.64377 -10.4064,7.91667 -26.95897,14.09312 -37.9061,14.14435 -3.14257,0.0147 -7.34963,2.76933 -20.625,13.50445 -74.48981,60.23617 -76.27655,61.58972 -87.27196,66.11364 -7.63695,3.14211 -15.87896,3.41838 -46.9052,1.57217 z"
@@ -501,15 +521,15 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       style="fill:#ffccaa;stroke:#000000;stroke-width:0.6046474px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 463.16441,385.78854 c -1.1115,-7.47707 2.2755,-22.70683 8.91552,-22.95104 6.34445,-0.23333 -3.89036,17.92781 -3.00437,18.01044 6.11499,0.5704 8.11817,-19.11908 14.8283,-16.12995 6.40214,2.85194 -10.38139,23.97505 -3.48879,22.51964 1.95968,-0.4138 7.67296,-20.1966 12.01187,-17.3325 6.36166,4.19932 -9.21499,21.65466 -5.23625,22.93839 1.38642,0.44732 10.24615,-20.41324 16.4351,-15.3286 3.70396,3.04305 -11.32078,14.93514 -11.41025,19.39682 -0.0929,4.63165 9.7782,-13.6353 14.4624,-12.83921 2.3638,6.6419 -19.09136,21.91009 -21.65837,24.76436 -2.58744,4.1662 -13.17221,18.73456 -22.56666,11.53828 -13.51593,-10.35346 1.88539,-26.68994 0.71151,-34.58661 z"
+       style="fill:#ffccaa;stroke:#000000;stroke-width:2.84388423px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 187.58515,-487.26602 c -5.22781,-35.16749 10.70252,-106.79878 41.93304,-107.94738 29.84032,-1.09745 -18.29783,84.32122 -14.13069,84.70987 28.7611,2.68281 38.18282,-89.92422 69.74309,-75.86523 30.11167,13.41375 -48.8276,112.76368 -16.40911,105.91834 9.21712,-1.94624 36.08883,-94.99221 56.49635,-81.52127 29.92128,19.75098 -43.34156,101.85001 -24.62806,107.88788 6.52086,2.10392 48.1915,-96.01115 77.30045,-72.09617 17.42113,14.31261 -53.24588,70.24559 -53.66668,91.23055 -0.43694,21.78438 45.99055,-64.13195 68.02211,-60.38765 11.11782,31.23937 -89.79385,103.0514 -101.86746,116.47611 -12.16972,19.59521 -61.95386,88.11567 -106.13949,54.26886 -63.57051,-48.69621 8.8677,-125.53282 3.34649,-162.67382 z"
        id="path4906"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssssssssccssc"
        inkscape:export-filename="/home/rana/SparkleShare/CCC/linuxCourse/Chapter 1/character/MOFED/belwesh222.png"
-       inkscape:export-xdpi="34.128929"
-       inkscape:export-ydpi="34.128929"
-       inkscape:transform-center-x="-4.7727107"
-       inkscape:transform-center-y="0.0006701938" />
+       inkscape:export-xdpi="33.93"
+       inkscape:export-ydpi="33.93"
+       inkscape:transform-center-x="-22.447858"
+       inkscape:transform-center-y="0.0031500693" />
   </g>
 </svg>
